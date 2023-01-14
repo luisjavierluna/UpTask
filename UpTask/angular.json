@@ -107,5 +107,7 @@
       }
     }
   },
-  "defaultProject": "UpTask"
+  "cli": {
+    "analytics": false
+  }
 }
