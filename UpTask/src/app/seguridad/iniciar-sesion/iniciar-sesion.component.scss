@@ -39,3 +39,19 @@
         }
     }
 }
+
+.crear {
+    margin-top: 5rem;
+
+    .uptask {
+        background: linear-gradient(to right, $cyan 0%, lighten($cyan, 30%) 100%);
+        color: transparent;
+        background-clip: text;
+        font-size: 7rem;
+        text-align: center;
+
+        @include tablet {
+            font-size: 10rem;
+        }
+    }
+}
